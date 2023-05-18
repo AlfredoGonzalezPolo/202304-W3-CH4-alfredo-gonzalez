@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-constructor */
 export type MovieStructure = {
   id: number;
   name: string;
