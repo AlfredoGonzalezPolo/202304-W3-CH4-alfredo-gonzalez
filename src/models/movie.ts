@@ -11,6 +11,7 @@ export type MovieStructure = {
 };
 
 export class Movie implements MovieStructure {
+  // eslint-disable-next-line max-params
   constructor(
     public id: number,
     public name: string,
